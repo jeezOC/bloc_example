@@ -11,10 +11,7 @@ dependencies:
   flutter:
     sdk: flutter
   gif_service:
-    path: "../gif_service_una"
-
-
-
+    path: "../gif_service"
 
 dev_dependencies:
   flutter_test:
