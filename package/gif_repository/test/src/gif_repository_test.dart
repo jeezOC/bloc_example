@@ -1,12 +1,12 @@
 // ignore_for_file: prefer_const_constructors
 
 import 'package:flutter_test/flutter_test.dart';
-import 'package:gif_service_una/gif_service_una.dart';
+import 'package:gif_repository/gif_repository.dart';
 
 void main() {
-  group('GifServiceUna', () {
+  group('GifRepository', () {
     test('can be instantiated', () {
-      expect(GifServiceUna(), isNotNull);
+      expect(GifRepository(), isNotNull);
     });
   });
 }
