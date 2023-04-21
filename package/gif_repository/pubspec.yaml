@@ -10,6 +10,11 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  gif_service:
+    path: "../gif_service_una"
+
+
+
 
 dev_dependencies:
   flutter_test:

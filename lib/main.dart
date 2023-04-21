@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+//import 'package:flutter_bloc/flutter_bloc.dart';
+//import 'package:gif_repository/gif_repository.dart';
 
 void main() {
   runApp(const MyApp());
@@ -10,7 +12,8 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return RepositoryProvider(
+      // create: (context) => GifRepository(),
       title: 'Kendall y alejandro app',
       theme: ThemeData(
         // This is the theme of your application.
