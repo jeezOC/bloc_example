@@ -1,5 +1,5 @@
 import 'package:gif_repository/src/models/gif_model.dart';
-import 'package:gif_service/gif_service.dart';
+import 'package:gif_service/gif_service.dart' show GifService;
 
 /// {@template gif_repository}
 /// My new Flutter package
